@@ -1,0 +1,104 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://www.google.com/imgres?q=hacker&imgurl=https%3A%2F%2Fwww.ad-ins.com%2Fwp-content%2Fuploads%2F2024%2F05%2FPerbedaan-Hacker-dan-Cracker.jpg&imgrefurl=https%3A%2F%2Fwww.ad-ins.com%2Four-story%2Fadins-story%2F10-differences-between-hackers-and-crackers%2F&docid=-Z9FcXTNDpfHtM&tbnid=6YjVESVvRwBf9M&vet=12ahUKEwja-6_XhN2OAxV22TgGHV2iNpc4ChAzegQIOxAA..i&w=1920&h=1280&hcb=2&ved=2ahUKEwja-6_XhN2OAxV22TgGHV2iNpc4ChAzegQIOxAA');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.92);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background-image: url('https://www.google.com/imgres?q=hacker&imgurl=https%3A%2F%2Fwww.ad-ins.com%2Fwp-content%2Fuploads%2F2024%2F05%2FPerbedaan-Hacker-dan-Cracker.jpg&imgrefurl=https%3A%2F%2Fwww.ad-ins.com%2Four-story%2Fadins-story%2F10-differences-between-hackers-and-crackers%2F&docid=-Z9FcXTNDpfHtM&tbnid=6YjVESVvRwBf9M&vet=12ahUKEwja-6_XhN2OAxV22TgGHV2iNpc4ChAzegQIOxAA..i&w=1920&h=1280&hcb=2&ved=2ahUKEwja-6_XhN2OAxV22TgGHV2iNpc4ChAzegQIOxAA');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  background-color: #222020;
+  max-width: 600px;
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  background-color: #eee3e3;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #969ba0;
+  margin-bottom: 1rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 8px;
+}
+
+.input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 60%;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.result-box {
+  margin-top: 1.5rem;
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+.verdict {
+  font-weight: 600;
+}
+
+.phishing {
+  color: #dc2626;
+}
+
+.legit {
+  color: #16a34a;
+}
+
+.chart-box {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
